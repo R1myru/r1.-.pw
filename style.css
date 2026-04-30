@@ -204,6 +204,8 @@ header {
 
 .content-panel { padding: 45px; }
 
+.h1-md::before { content: "# "; color: #ddd; }
+
 .h1-md {
     font-size: 2.2rem;
     font-weight: 700;
